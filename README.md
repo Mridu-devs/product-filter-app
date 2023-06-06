@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Product List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that displays a product list with filtering options based on category. It includes a category selecting dropdown in the navbar.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To run this application locally, follow these steps:
 
-### `npm start`
+1. Clone the repository to your local machine:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+git clone https://github.com/Mridu-devs/product-filter-app.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:
 
-### `npm test`
+```
+cd product-list-app
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the dependencies using npm:
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your web browser and visit `http://localhost:3000` to see the application.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once the application is running, you can interact with the product list and filtering options:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The navbar contains a category selecting dropdown which allows you to filter products by selecting a specific category. The product list will be updated accordingly.
+- If no category is selected, all products will be displayed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Customization
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You can customize the application by modifying the product data and the components:
 
-## Learn More
+- Modify the `products` array in the `ProductList` component to add, remove, or update the product items.
+- Adjust the styling and layout of the components by modifying the CSS styles in the respective components or by creating new CSS files.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This application was built using the following dependencies:
 
-### Code Splitting
+- React: A JavaScript library for building user interfaces.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+These dependencies are managed using npm or yarn and are automatically installed when you run the `npm install` or `yarn install` command.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize and use this application according to your needs. Happy coding!
