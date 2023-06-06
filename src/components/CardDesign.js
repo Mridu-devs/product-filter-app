@@ -8,11 +8,11 @@ export default function CardDesign({
   currentPrice,
   previousPrice,
   discount,
+  category,
 }) {
   return (
     <div className="card-box">
-      {/* <ImageLoader imageName={imgsrc} alt="My Image" /> */}
-      <img src={imgsrc} alt="My Image" className="img-siz " />
+      <img src={imgsrc} alt={category} className="img-siz " />
       <div className="word-box">
         <div className="blur-text">{brandName}</div>
         <div className="descript">

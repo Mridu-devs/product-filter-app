@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import CardDesign from "./CardDesign";
-import Image from "../assets/Image";
 
 const Navbar = ({ products }) => {
-  const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
-
-  const handleSearchChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
 
   const handleCategoryChange = (event) => {
     setSelectedCategory(event.target.value);
@@ -46,6 +40,7 @@ const Navbar = ({ products }) => {
               description={item.description}
               currentPrice={item.currentPrice}
               previousPrice={item.previousPrice}
+              category={item.category}
               discount={item.discount}
             />
           );

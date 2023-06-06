@@ -54,5 +54,4 @@ This application was built using the following dependencies:
 
 These dependencies are managed using npm or yarn and are automatically installed when you run the `npm install` or `yarn install` command.
 
-
 Feel free to customize and use this application according to your needs. Happy coding!

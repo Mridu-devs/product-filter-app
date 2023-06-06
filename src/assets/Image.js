@@ -1,5 +1,3 @@
-import React from "react";
-
 const Image = {
   aadi: require("./images/aadi-shoe.jpeg"),
   asian: require("./images/asian-shoe.jpeg"),

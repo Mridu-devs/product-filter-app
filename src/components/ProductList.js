@@ -1,5 +1,4 @@
 import React from "react";
-import CardDesign from "./CardDesign";
 import Image from "../assets/Image";
 import Navbar from "./Navbar";
 
