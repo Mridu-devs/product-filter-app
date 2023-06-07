@@ -1,6 +1,7 @@
 /*----------NAV BAR ------------*/
 * {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .nav {
