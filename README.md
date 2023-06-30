@@ -1,3 +1,8 @@
+<img width="947" alt="ProdList-1" src="https://github.com/Mridu-devs/product-filter-app/assets/123240947/aa747f67-155a-4db5-a230-a25d316f014f">
+<img width="929" alt="after selecting category" src="https://github.com/Mridu-devs/product-filter-app/assets/123240947/d3e2db83-87b6-4750-9b9c-d79c9d20cf22">
+
+
+
 # Product List Application
 
 This is a React application that displays a product list with filtering options based on category. It includes a category selecting dropdown in the navbar.
